@@ -1,0 +1,233 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+/* Put your CSS Styles Below this Line */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+
+}
+
+li{
+		margin: 20px;
+		font-family: 'Press Start 2P', cursive;
+		font-size: 22px;
+		
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 30px;
+	align-self: center;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 10%;
+	background-color: #7E5142;
+	color: white;
+	padding: 80px 100px 80px 100px;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 19px;
+	font-family: 'Press Start 2P', cursive;
+	margin-top: 10%;
+	margin-left: 30%;
+	color: white;
+	width: 50%;
+}
+
+h5 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 19px;
+	padding-right: 10%;
+}
+
+h6 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 19px;
+	padding-left: 10%;
+}
+
+p {
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+.text-style{
+		font-family: 'Press Start 2P', cursive;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+ /*class of link is for the color change for the links*/
+.link{
+	background-color: transparent;
+}
+
+.link:hover{
+	color: green;
+}
+
+.About{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #7E5142;
+	margin: 0;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.days{
+	background-color: #114542;
+}
+
+.specals{
+	/*align-items: flex-start;*/
+	width: 30%;
+	/*display: flex;
+	justify-content: space-between;
+	text-decoration: overline;*/
+	background-color: #7E5142;
+	color: white;
+	margin: 0;
+}
+
+.coffee-drinks{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #7E5142;
+	margin: 0;
+}
+
+.contact{
+	display: flex;
+	background-color: #3E3F40;
+	color: white;
+	margin: 0;
+}
+.text-size{
+	font-size: 15px;
+	background-color: #3E3F40;
+	color: white;
+}
+
+footer {
+	padding-top: 350px;
+	background-color: #7E5142;
+}
+
+.Fall{
+	background-color: #7E5142;
+	color: white;
+	margin: 0;
+	padding-bottom: 75px 10px 75px 10px;
+}
+
+.Erase footer{
+	background-color: white;
+}
+
+.Erase-text h1{
+	background-color: white;
+	color: black;
+	font-size: 25px;
+}
+
+.text-even h2{
+	width: 200%;
+}
+ /* main link is a color change for the text of the link the person is on */
+.main-link{
+	color: #C27958;
+	background-color: transparent;
+}
+
+.main-link:hover{
+	color: green;
+}
+
+
+.food-items {
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-between;
+}
+
+.food-items div {
+	width:  22%;
+	margin-bottom: 30px;
+}
+
+.food-items div img {
+	width:  100%;
+}
+
+.drink-items {
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-between;
+}
+
+.drink-items div {
+	width:  22%;
+	margin-bottom: 30px;
+}
+
+.drink-items div img {
+	width:  100%;
+}
+
+.specals-items {
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-between;
+}
+
+.specals-items div {
+	width:  22%;
+	margin-bottom: 30px;
+}
+
+.specals-items div img {
+	width:  100%;
+}
+
+.form-row {
+	display: flex;
+	padding: 50px;
+}
+
+.form-item{
+	margin: 20px 0;
+}
+
+
+
